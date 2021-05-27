@@ -10,13 +10,12 @@
 
   <body>
     <script>
-      const h1 = document.createElement('h1');
-      document.body.appendChild(h1)
-      h1.innerHTML = 'Elzero';
-      h1.style.color = 'blue';
-      h1.style.fontWeight = 'bold';
-      h1.style.textAlign = 'center';
-      h1.style.fontFamily = 'Arial';
+      document.write("<h1>Elzero</h1>");
+      const elementStyle = document.querySelector("h1").style;
+      elementStyle.color = "blue";
+      elementStyle.fontSize = "80px";
+      elementStyle.textAlign = "center";
+      elementStyle.fontFamily = "Arial";
     </script>
   </body>
 
